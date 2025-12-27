@@ -38,7 +38,7 @@ async def start(message: types.Message):
     users[uid] = uname
 
     await message.answer(
-        "👋 Привет хуесос! Как дела?\n"
+        "👋 Привет! Как дела?\n"
         "Чем могу помочь? ✅\n",
         reply_markup=menu
     )
