@@ -29,7 +29,7 @@ async def start(message: Message):
 # --- Кнопка О боте ---
 @dp.message(lambda m: m.text == "Обо мне")
 async def about(message: Message):
-    await message.answer("Привет, если хочешь узнать обо мне, нажми "Обо мне"")
+    await message.answer("Привет, если хочешь узнать обо мне, нажми Обо мне")
 
 # --- Кнопка Контакты ---
 @dp.message(lambda m: m.text == "Обо мне")
