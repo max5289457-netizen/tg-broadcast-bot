@@ -27,14 +27,14 @@ async def start(message: Message):
     )
 
 # --- Кнопка О боте ---
-@dp.message(lambda m: m.text == "ℹ️ О боте")
+@dp.message(lambda m: m.text == "Обо мне")
 async def about(message: Message):
-    await message.answer("🤖 Это простой Telegram-бот с меню.")
+    await message.answer("Привет, если хочешь узнать обо мне, нажми "Ббо мне"")
 
 # --- Кнопка Контакты ---
-@dp.message(lambda m: m.text == "📞 Контакты")
+@dp.message(lambda m: m.text == "Обо мне")
 async def contacts(message: Message):
-    await message.answer("📧 Контакты: example@mail.com")
+    await message.answer("Меня зовут Макс, мне 19 лет")
 
 # --- Запуск ---
 async def main():
